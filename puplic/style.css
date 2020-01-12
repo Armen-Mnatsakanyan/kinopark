@@ -1,0 +1,57 @@
+body {
+  background-image: url(/img/895231.jpg);
+}
+.kinoPark {
+  background-color: #00114A;
+  width: 45%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  border: double gray;
+  color: gray;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  border: double gray;
+  color:white;
+}
+.seat {
+    border: 0;
+    background-color: rgb(10, 192, 10);
+    width: 5.8%;
+    padding: 10px 20px;
+    margin: 15px;
+    margin-left: 2.16%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.seat:hover {
+  color:white;
+  background-color: black;
+}
+seat:active {
+  color: white;
+  background-color: rgb(142, 142, 142); 
+}
+.buy {
+  border: 0;
+  background-color: rgb(10, 192, 10);
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buy:hover {
+color:white;
+background-color: black;
+}
+.buy:active {
+color: white;
+background-color: rgb(142, 142, 142); 
+}
