@@ -22,7 +22,7 @@ function seatFunc(id){
     if(!arr.includes(id)){
      arr.push(id);
     }else{
-     document.getElementById(id).style.backgroundColor = 'rgb(10, 192, 10)';
+     document.getElementById(id).style.backgroundColor = 'rgb(142, 142, 142)';
      arr.splice(arr.indexOf(id), 1);
     }
 };
