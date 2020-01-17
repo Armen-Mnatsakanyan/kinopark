@@ -18,11 +18,11 @@
 let arr = [];
 
 function seatFunc(id){
-    document.getElementById(id).style.backgroundColor = 'yellow';
+    document.getElementById(id).style.backgroundColor = 'rgb(142,142,142)';
     if(!arr.includes(id)){
      arr.push(id);
     }else{
-     document.getElementById(id).style.backgroundColor = 'rgb(142, 142, 142)';
+     document.getElementById(id).style.backgroundColor = 'rgb(10, 192, 10)';
      arr.splice(arr.indexOf(id), 1);
     }
 };

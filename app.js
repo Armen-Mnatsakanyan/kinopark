@@ -12,7 +12,6 @@ app.use(express.static(__dirname + '/puplic'));
 
 app.listen(PORT, () => {
   client.connect(err => {
-    if(err) throw err;
     const db = client.db("kinopark")
     console.log(db.collection('seat'));
   })
